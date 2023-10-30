@@ -1,1 +1,0 @@
-The objective of this practical is to familiraze ourselves with the workings on the github platform to prepare us for the semester projects will be doing .It will also introduce us to the pracical working of the git tool, the online Github repository management system and how to synchronize the codebase between the two.
