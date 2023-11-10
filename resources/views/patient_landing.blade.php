@@ -1,0 +1,4 @@
+
+<!DOCTYPE html>
+
+{{ "Patient Landing" }}
