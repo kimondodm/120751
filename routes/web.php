@@ -18,11 +18,6 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    $user = request('user');
-    // return view('landing', ['user' => $user]);
-    // PatientController::landing($user);
-    return view('patient_info');
-});
+Route::get('/', [App\Http\Controllers\PatientController::class, 'landing']);
 
 Route::post('/addPatient', '\App\Http\Controllers\PatientController@addPatientDetails')->name('patient.add');
